@@ -1,0 +1,97 @@
+:root {
+    --color-text: rgb(88, 88, 88);
+    --color-body: #e8eece;
+    --color-hover: rgb(178, 192, 114);
+    --color-theme: rgb(178, 192, 114);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, arial, sans-serif;
+    color: var(--color-text);
+}
+
+
+/*Header styling start */
+
+header {
+    background-image: linear-gradient(#ebf3c8, #ffffff);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 5px 35px;
+    align-items: center;
+    text-shadow: 0 3px 15px rgba(0, 0, 0, 0.40);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 20px;
+    color: var(--color-text);
+    text-shadow: 0px 1px 9px rgba(0, 0, 0, 0.40);
+}
+
+header nav ul li a:hover {
+    background-color: var(--color-hover);
+    border-radius: 30%;
+}
+
+header nav ul li a:focus {
+    background-color: var(--color-hover);
+    border-radius: 15px;
+}
+
+
+/*Header styling ends */
+
+
+/*About Me styling start */
+
+.about-me div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about-me h2 {
+    width: 8%;
+    border-right: solid var(--color-theme) 4px;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 12px;
+}
+
+.about-me p {
+    width: 70%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+
+/*About Me styling ends */
