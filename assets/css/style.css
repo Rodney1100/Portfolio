@@ -94,6 +94,16 @@ header nav ul li a:focus {
 
 /*about me styling start */
 
+.makeIMGsmaller {
+    max-width: 12.75%;
+    margin: 0px 20px;
+    float: left;
+}
+
+.about-me1 {
+    flex-wrap: wrap;
+}
+
 .about-me,
 .images,
 .contact {
